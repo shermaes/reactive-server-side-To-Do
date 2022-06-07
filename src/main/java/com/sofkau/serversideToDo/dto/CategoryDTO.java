@@ -1,11 +1,11 @@
 package com.sofkau.serversideToDo.dto;
 
 import com.sofkau.serversideToDo.collection.ToDo;
-import org.springframework.data.annotation.Id;
+import lombok.Data;
 
 import javax.validation.constraints.NotBlank;
 import java.util.List;
-
+@Data
 public class CategoryDTO {
 
     private String id;
